@@ -46,3 +46,5 @@ set smartcase
 " vim-statline (:help statline)
 let g:statline_fugitive = 1
 
+
+set t_Co=256
