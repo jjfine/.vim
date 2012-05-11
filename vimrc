@@ -18,15 +18,6 @@ set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
 
-" Define ',' as the "Leader" character (:help leader)
-let mapleader = ","
-let g:mapleader = ","
-
-" Open NERDTree if vim launched without arguments
-autocmd vimenter * if !argc() | NERDTree | endif 
-" Close vim if the only buffer open is a NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
 " Set the <Leader>p ( ,p based on prior settings in this file ) binding,
 " in normal mode only, to toggle nerdtree and not show anything in the
 " info bar
