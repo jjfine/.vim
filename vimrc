@@ -4,6 +4,11 @@ call pathogen#infect() " Remember to call :Helptags to generate the vimhelpfiles
 syntax on
 filetype plugin indent on
 
+"Option for solarized colorscheme
+set background=dark
+colorscheme solarized
+set t_Co=256
+
 " Define ',' as the "Leader" character (:help leader)
 let mapleader = ","
 let g:mapleader = ","
@@ -12,10 +17,6 @@ let g:mapleader = ","
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
-
-"Option for solarized colorscheme
-set background=dark
-colorscheme solarized
 
 " Define ',' as the "Leader" character (:help leader)
 let mapleader = ","
@@ -45,6 +46,3 @@ set smartcase
 
 " vim-statline (:help statline)
 let g:statline_fugitive = 1
-
-
-set t_Co=256
