@@ -21,7 +21,9 @@ set autoindent
 " Set the <Leader>p ( ,p based on prior settings in this file ) binding,
 " in normal mode only, to toggle nerdtree and not show anything in the
 " info bar
-nmap <silent> <leader>p :NERDTreeToggle<CR>
+" Kept because I'm still a newbie at vim editing, but NERDTree is gone, so
+" commented
+" nmap <silent> <leader>p :NERDTreeToggle<CR>
 
 set number "I like line numbers
 set ruler " Where the cursor is, in the linebuffer
