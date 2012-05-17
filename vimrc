@@ -39,3 +39,12 @@ set smartcase
 
 " vim-statline (:help statline)
 let g:statline_fugitive = 1
+
+" taglist
+
+let Tlist_Ctags_Cmd = "/usr/bin/ctags" "ctags command
+let Tlist_WinWidth = 50 "width of ctags window
+"toggle ctags window
+map <F4> :TlistToggle<cr> 
+"build ctags
+map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
