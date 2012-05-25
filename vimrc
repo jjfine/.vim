@@ -5,7 +5,7 @@ syntax on
 filetype plugin indent on
 
 "Option for solarized colorscheme
-set background=dark
+set background=light
 colorscheme solarized
 set t_Co=256
 
