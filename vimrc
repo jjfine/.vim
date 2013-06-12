@@ -47,3 +47,9 @@ let Tlist_WinWidth = 50 "width of ctags window
 map <F4> :TlistToggle<cr> 
 "build ctags
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+
+" CtrlP Config
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|sass-cache)$'
