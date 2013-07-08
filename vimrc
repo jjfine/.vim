@@ -1,6 +1,24 @@
 "Confused? Remember that you can use :help <something>
+"
+" Vundle!!!
+set nocompatible
+filetype off
 
-call pathogen#infect() " Remember to call :Helptags to generate the vimhelpfiles
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+"
+" original repos on github
+Bundle 'tpope/vim-fugitive'
+Bundle 'kien/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
+
+" OTHER CONFIG STUFF "
 syntax on
 filetype plugin indent on
 
