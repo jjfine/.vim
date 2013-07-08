@@ -17,6 +17,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'ervandew/supertab'
 
 " OTHER CONFIG STUFF "
 syntax on
