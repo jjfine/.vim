@@ -6,7 +6,6 @@ filetype plugin indent on
 
 "Option for solarized colorscheme
 set background=light
-colorscheme solarized
 set t_Co=256
 
 " Define ',' as the "Leader" character (:help leader)
