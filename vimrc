@@ -23,9 +23,12 @@ Bundle 'ervandew/supertab'
 syntax on
 filetype plugin indent on
 
+let g:solarized_termcolors=256
+
 "Option for solarized colorscheme
+set t_Co=256 " Use 256 colors
 set background=light
-set t_Co=256
+colorscheme solarized
 
 " Define ',' as the "Leader" character (:help leader)
 let mapleader = ","
@@ -45,7 +48,6 @@ set autoindent
 set number "I like line numbers
 set ruler " Where the cursor is, in the linebuffer
 set scrolloff=3  " Always show 3 lines around cursor
-set t_Co=256 " Use 256 colors
 
 set hls " Highlight searches
 set incsearch " Highlight search as you type
