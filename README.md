@@ -3,10 +3,11 @@ How do I get this to work?
 
 WARNING - these instructions assume you do not already have a .vim directory or a .vimrc file.
 
+```
 $ git clone https://github.com/jjfine/.vim.git ~/.vim
-$ ln -sf .vim/vimrc ~/.vimrc
-$ cd ~/.vim
+$ ln -sf ~/.vim/vimrc ~/.vimrc
 $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
 
 Then launch vim and run :BundleInstall.
 
