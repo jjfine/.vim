@@ -18,6 +18,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'ervandew/supertab'
+Bundle 'guns/vim-clojure-static'
 
 " OTHER CONFIG STUFF "
 syntax on
@@ -66,6 +67,8 @@ let g:statline_fugitive = 1
 " CtrlP Config
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.png,*/target/*,*/dist/*,*/out/*,*/lib/*,*/build/*    " MacOSX/Linux
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.png,*/target/*,*/dist/*,*/out/*    " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|sass-cache)$'
 let g:ctrlp_max_files=100000
+
+set clipboard=unnamed
